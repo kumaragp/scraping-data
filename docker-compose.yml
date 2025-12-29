@@ -1,23 +1,9 @@
 version: "3.8"
 
 services:
-  mongodb:
-    image: mongo:6.0
-    container_name: mongodb
-    ports:
-      - "27017:27017"
-    volumes:
-      - mongo_data:/data/db
-
   crawler:
     build: ./app
-    container_name: mycrawler
-    depends_on:
-      - mongodb
-    command: python crawler.py
-    restart: always
     environment:
-      - MONGO_URI=YOYR_MONGODB_URI_HERE
-
-volumes:
-  mongo_data:
+      - SUPABASE_URL=DATABASE_SERVER
+      - SUPABASE_KEY=SERVICE_ROLE_API_KEYS
+    restart: always
