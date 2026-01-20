@@ -41,9 +41,9 @@ git clone https://github.com/kumaragp/scraping-data.git
 | category     | text     | NULL            |   IN    |
 | timestamps   | timstamp | NULL            |   IN    |
 
-- **II = Is Identify**
-- **IU = Is Unique**
-- **IN = Is Nullable**
+  - **II = Is Identify**
+  - **IU = Is Unique**
+  - **IN = Is Nullable**
 
 5. Buat notebook baru di databricks pada menu Workspace
 
