@@ -1,7 +1,7 @@
 
 # Scrapping Data
 
-Kode program ini digunakan untuk melakukan web scraping pada website berita Indonesia dengan tujuan mengambil data informasi berita secara otomatis. Data yang diambil umumnya meliputi sumber berita, judul berita, url, kategori berita, dan waktu pengambilan. Adapun website berita yang diambil datanya adalah sebagai berikut:
+Kode program ini digunakan untuk melakukan craping data pada website berita Indonesia dengan tujuan mengambil data informasi berita secara otomatis. Data yang diambil meliputi sumber berita, judul berita, url, kategori berita, dan waktu pengambilan. Adapun website berita yang diambil datanya adalah sebagai berikut:
 - CNN
 - NEWS
 - KOMPAS
